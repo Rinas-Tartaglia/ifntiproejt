@@ -1,0 +1,183 @@
+/*=======================DEBUT========================*/
+/*=======================template dimitri========================*/
+/*=======================Fin========================*/
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    }
+    ::root{
+        --colorEntente :#7a4134;
+    }
+    html, body{
+        height: 100%;
+    }
+    body{
+        display: flex;
+        overflow-x: hidden;
+        flex-direction: column;
+    }
+    .content{
+        flex-grow: 1;
+        margin-top: 0.1rem;
+        border: 3px solid red;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    footer{
+        padding: 10px;
+        /*border: 5px solid bisque;*/
+        /*background-color: bisque;*/
+    }
+/*=======================template dimitri========================*/
+/*=======================template dimitri========================*/
+/*=======================Fin========================*/
+
+
+/*HEADER*/
+header{
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    padding: 0 7%;
+    justify-content: space-between;
+}
+header .logo{
+    border: 6px solid rgb(5, 5, 35);
+    border-radius: 10px;
+    width: 5rem;
+    height: 6rem;
+}
+header .logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+header .navigation ul li {
+    float: left;
+    margin-left: 70px;
+    cursor: pointer;
+}
+header .navigation ul li a{
+    font-size: 1.5rem;
+    color: white;
+    transition: 0.5s linear;
+}
+header .navigation ul li a:hover{
+    background-color: rgb(5, 5, 35);
+    background: rgb(114, 53, 29);
+    padding: 10px;
+    border-radius: 15px;
+    letter-spacing: 5px;
+}
+header .contact {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50px;
+}
+header .contact a{
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    transition: 0.5s linear;
+}
+header .contact:hover{
+    background-color: #051937;
+    border-radius: 48px;
+    background: linear-gradient(145deg, #091651, #042c4f);
+    box-shadow:  23px 23px 55px darkblue,
+                -23px -23px 55px darkblue;
+
+    letter-spacing: 4px;
+}
+
+
+/*footer*/
+.cards{
+    border: 2px solid greenyellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    flex-wrap: wrap;
+}
+.cards0, .cards1, .cards2, .cards3{
+    border: 1px solid gold;
+    width: 20rem;
+    height: 15rem;
+    flex-wrap: wrap;
+}
+.cards0 img{
+   text-align: center;
+   height: 150px;
+}
+.cards1 p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.cards2{
+    text-align: center;
+    padding: 20px;
+}
+.cards2 .carden2{
+    display: flex;
+    align-items: center;
+    float: left;
+    margin: 20px;
+    
+}
+
+
+swiper-container {
+    width: 100%;
+    height: 100%;
+    
+}
+
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -100;
+}
+
+
+.contenu{
+    height: 50%;
+    width: 100%;
+    border: 5px solid blue;
+    z-index: -100;
+}
+.cool{
+    margin-top: -50px;
+    z-index: 100;
+}
+
+/*===================RESTE DU CODE ====================*/
+.restecode{
+    margin-top: 2rem;
+}
+
+
+/*FORMAT TABLETTE*/
+    @media screen and ((min-width: 50px) and (max-width: 1000px)){
+
+    }
+
+/*FORMAT PORTABLE SIMPLE*/
+    @media screen and ((min-width: 50px) and (max-width: 1000px)){
+        
+    }
